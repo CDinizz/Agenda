@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Menu {
 
-    public static void chamarMenu() {
+    public void chamarMenu() {
         AgendaTelefonica agenda = new AgendaTelefonica();
         Scanner scanner = new Scanner(System.in);
 

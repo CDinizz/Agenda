@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class AgendaTelefonica {
 
-    private static List<Contato> contatos;
+    private List<Contato> contatos;
 
     public AgendaTelefonica() {
         this.contatos = new ArrayList<>();
